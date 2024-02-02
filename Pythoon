@@ -1,0 +1,11 @@
+import random
+
+şifre="+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+
+şifre_iste=int(input("Kaç haneli bir şifre giriceksiniz:"))
+
+sifre=[]
+for i in range(şifre_iste):
+    sifre += random.choice(şifre)
+
+print(sifre)
